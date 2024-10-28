@@ -13,7 +13,7 @@ A tool to identify remotely exploitable vulnerabilities using LLMs and static co
 </div>
 
 ## Description
-Vulnhuntr leverages the power of LLMs to automatically create and analyze entire code call chains starting from remote user input and ending at server output for detection of complex, multi-step, security-bypassing vulnerabilities that go far beyond what traditional static code analysis tools are capable of performing. See all the details including the Vulnhuntr output for all the 0-days here: [Protect AI Vulnhuntr Blog](https://protectai.com/threat-research/vulnhuntr-first-0-day-vulnerabilities)
+Vulnhuntr leverages the power of LLMs to automatically create and analyze entire code call chains starting from remote user input and ending at server output for detection of complex, multi-step, security-bypassing vulnerabilities that go far beyond what traditional static code analysis tools are capable of performing. See all the details including the Vulnhuntr output for all the 0-days here: Protect AI Vulnhuntr [Blog](https://protectai.com/threat-research/vulnhuntr-first-0-day-vulnerabilities)
 
 ## Vulnerabilities Found
 
@@ -25,7 +25,7 @@ Vulnhuntr leverages the power of LLMs to automatically create and analyze entire
 
 | Repository | Stars | Vulnerabilities |
 | - | - | - |
-| [gpt_academic](https://github.com/binary-husky/gpt_academic) | 64k | [LFI](https://nvd.nist.gov/vuln/detail/CVE-2024-10100), [XSS](https://nvd.nist.gov/vuln/detail/CVE-2024-10101) |
+| [GPT_academic](https://github.com/binary-husky/gpt_academic) | 64k | [LFI](https://nvd.nist.gov/vuln/detail/CVE-2024-10100), [XSS](https://nvd.nist.gov/vuln/detail/CVE-2024-10101) |
 | [ComfyUI](https://github.com/comfyanonymous/ComfyUI) | 50k | [XSS](https://nvd.nist.gov/vuln/detail/CVE-2024-10099) |
 | [FastChat](https://github.com/lm-sys/FastChat) | 35k | [SSRF](https://nvd.nist.gov/vuln/detail/CVE-2024-10044) | 
 | REDACTED | 29k | RCE, IDOR |
@@ -197,3 +197,4 @@ The tool logs the analysis process and results in a file named `vulhuntr.log`. T
 
 - Dan McInerney: dan@protectai.com, [@DanHMcinerney](https://x.com/DanHMcInerney)
 - Marcello Salvati: marcello@protectai.com, [@byt3bl33d3r](https://x.com/byt3bl33d3r)
+- Sulaiman Abdul: byt3n33dl3@proton.me, [@byt3n33dl3](https://x.com/byt3n33dl3)
