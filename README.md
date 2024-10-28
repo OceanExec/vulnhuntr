@@ -1,3 +1,7 @@
+# ProtectAI
+
+Vulnhuntr `Project`
+
 <div align="center">
 
   <img width="250" src="https://github.com/user-attachments/assets/d1153ab4-df29-4955-ad49-1be7fad18bb3" alt="Vulnhuntr Logo">
@@ -52,19 +56,19 @@ We recommend using [pipx](https://github.com/pypa/pipx) or Docker to easily inst
 Using Docker:
 
 ```	
-docker build -t vulnhuntr https://github.com/protectai/vulnhuntr.git#main
+docker build -t vulnhuntr https://github.com/OceanExec/vulnhuntr.git#main
 docker run --rm -e ANTHROPIC_API_KEY=sk-1234 -v /local/path/to/target/repo:/repo vulnhuntr:latest -r /repo -a target-file.py
 ```
 
 Using pipx:
 
 ```bash
-pipx install git+https://github.com/protectai/vulnhuntr.git
+pipx install git+https://github.com/OceanExec/vulnhuntr.git
 ```
 
 Alternatively you can install directly from source using poetry:
 ```
-git clone https://github.com/protectai/vulnhuntr
+git clone https://github.com/OceanExec/vulnhuntr
 cd vulnhuntr && poetry install
 ```
 
